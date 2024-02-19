@@ -1,0 +1,541 @@
+{
+    "Fichier-Perso-PIN-Change": [
+        {
+            "FIELD": "PO050-REF",
+            "TYPE": "AN",
+            "SIZE": "8",
+            "OFFSET1": "1",
+            "OFFSET2": "8",
+            "DEFAULTVALUE": "BCEPO050",
+            "undeOFFSET2ed": ""
+        },
+        {
+            "FIELD": "PO050-CODBNQ",
+            "TYPE": "AN",
+            "SIZE": "5",
+            "OFFSET1": "9",
+            "OFFSET2": "13",
+            "VALUE": "Code national de la banque"
+        },
+        {
+            "FIELD": "PO050-VILLE",
+            "TYPE": "AN",
+            "SIZE": "3",
+            "OFFSET1": "14",
+            "OFFSET2": "16",
+            "VALUE": "Code ville porteur"
+        },
+        {
+            "FIELD": "PO050-CODAG",
+            "TYPE": "AN",
+            "SIZE": "3",
+            "OFFSET1": "17",
+            "OFFSET2": "19",
+            "VALUE": "Code agence porteur"
+        },
+        {
+            "FIELD": "PO050-LOT",
+            "TYPE": "N",
+            "SIZE": "6",
+            "OFFSET1": "20",
+            "OFFSET2": "25",
+            "VALUE": "NUMERO DE LOT"
+        },
+        {
+            "FIELD": "PO050-TYP-CART.",
+            "TYPE": "N",
+            "SIZE": "2",
+            "OFFSET1": "26",
+            "OFFSET2": "27",
+            "VALUE": "TYPE DE CARTE"
+        },
+        {
+            "FIELD": "FILLER",
+            "TYPE": "AN",
+            "SIZE": "3",
+            "OFFSET1": "28",
+            "OFFSET2": "30",
+            "VALUE": "INUTILISE (3 espaces)"
+        },
+        {
+            "FIELD": "PO050-PORT",
+            "TYPE": "N",
+            "SIZE": "19",
+            "OFFSET1": "31",
+            "OFFSET2": "49",
+            "VALUE": "NUMERO PORTEUR"
+        },
+        {
+            "FIELD": "TITRE",
+            "TYPE": "AN",
+            "SIZE": "8",
+            "OFFSET1": "50",
+            "OFFSET2": "57",
+            "VALUE": "TITRE PORTEUR"
+        },
+        {
+            "FIELD": "PO050-NOM (NOM)",
+            "TYPE": "AN",
+            "SIZE": "20",
+            "OFFSET1": "58",
+            "OFFSET2": "77",
+            "VALUE": "NOM PORTEUR DE CARTE"
+        },
+        {
+            "FIELD": "PO050-NOM-2 (PRENOM)",
+            "TYPE": "AN",
+            "SIZE": "20",
+            "OFFSET1": "78",
+            "OFFSET2": "97",
+            "VALUE": "PRENOM PORTEUR DE CARTE"
+        },
+        {
+            "FIELD": "PO050-RAISON",
+            "TYPE": "AN",
+            "SIZE": "30",
+            "OFFSET1": "98",
+            "OFFSET2": "127",
+            "VALUE": "RAISON SOCIALE"
+        },
+        {
+            "FIELD": "PO050-ADRESSE1",
+            "TYPE": "AN",
+            "SIZE": "38",
+            "OFFSET1": "128",
+            "OFFSET2": "165",
+            "VALUE": "LIGNES ADRESSES 1"
+        },
+        {
+            "FIELD": "PO050-ADRESSE2",
+            "TYPE": "AN",
+            "SIZE": "38",
+            "OFFSET1": "166",
+            "OFFSET2": "203",
+            "VALUE": "LIGNES ADRESSES 2"
+        },
+        {
+            "FIELD": "O050-ADRESSE3",
+            "TYPE": "AN",
+            "SIZE": "38",
+            "OFFSET1": "204",
+            "OFFSET2": "241",
+            "VALUE": "LIGNES ADRESSES 3"
+        },
+        {
+            "FIELD": "PO050-ADRESSE4",
+            "TYPE": "AN",
+            "SIZE": "38",
+            "OFFSET1": "242",
+            "OFFSET2": "279",
+            "VALUE": "LIGNES ADRESSES 4"
+        },
+        {
+            "FIELD": "PO050-ADRESSE5",
+            "TYPE": "AN",
+            "SIZE": "38",
+            "OFFSET1": "280",
+            "OFFSET2": "317",
+            "VALUE": "LIGNES ADRESSES 5"
+        },
+        {
+            "FIELD": "PO050-ADRESSE6",
+            "TYPE": "AN",
+            "SIZE": "38",
+            "OFFSET1": "318",
+            "OFFSET2": "355",
+            "VALUE": "LIGNES ADRESSES 6"
+        },
+        {
+            "FIELD": "PO050-ADRESSE7",
+            "TYPE": "AN",
+            "SIZE": "38",
+            "OFFSET1": "356",
+            "OFFSET2": "393",
+            "VALUE": "LIGNES ADRESSES 7"
+        },
+        {
+            "FIELD": "PO050-LIEU_ENV",
+            "TYPE": "A",
+            "SIZE": "1",
+            "OFFSET1": "394",
+            "OFFSET2": "394",
+            "VALUE": "A/C’ : Agence/Client"
+        },
+        {
+            "FIELD": "PO050-LOT_PIN",
+            "TYPE": "N",
+            "SIZE": "12",
+            "OFFSET1": "395",
+            "OFFSET2": "406",
+            "VALUE": "Complété par des zéros à gauche"
+        },
+        {
+            "FIELD": "PO050-CODE-POSTAL",
+            "TYPE": "AN",
+            "SIZE": "5",
+            "OFFSET1": "407",
+            "OFFSET2": "411",
+            "VALUE": "CODE POSTAL"
+        },
+        {
+            "FIELD": "PO050-CODE-PAYS",
+            "TYPE": "AN",
+            "SIZE": "3",
+            "OFFSET1": "412",
+            "OFFSET2": "414",
+            "VALUE": "CODE PAYS"
+        },
+        {
+            "FIELD": "PO050-PLAFOND-PERIODE",
+            "TYPE": "N",
+            "SIZE": "4",
+            "OFFSET1": "415",
+            "OFFSET2": "418",
+            "VALUE": "PLAFOND PERIODE"
+        },
+        {
+            "FIELD": "PO050-DUREE-PERIODE",
+            "TYPE": "N",
+            "SIZE": "2",
+            "OFFSET1": "419",
+            "OFFSET2": "420",
+            "VALUE": "DUREE PERIODE"
+        },
+        {
+            "FIELD": "PO050-AA-OFFSET1-VAL",
+            "TYPE": "N",
+            "SIZE": "2",
+            "OFFSET1": "421",
+            "OFFSET2": "422",
+            "VALUE": "DATE OFFSET1UT VALIDITE (AA)"
+        },
+        {
+            "FIELD": "PO050-MM-OFFSET1-VAL",
+            "TYPE": "N",
+            "SIZE": "2",
+            "OFFSET1": "423",
+            "OFFSET2": "424",
+            "VALUE": "DATE OFFSET1UT VALIDITE (MM)"
+        },
+        {
+            "FIELD": "PO050-AA-OFFSET2-VAL",
+            "TYPE": "N",
+            "SIZE": "2",
+            "OFFSET1": "425",
+            "OFFSET2": "426",
+            "VALUE": "DATE OFFSET2 VALIDITE(AA)"
+        },
+        {
+            "FIELD": "PO050-MM-OFFSET2-VAL",
+            "TYPE": "N",
+            "SIZE": "2",
+            "OFFSET1": "427",
+            "OFFSET2": "428",
+            "VALUE": "DATE OFFSET2 VALIDITE(MM)"
+        },
+        {
+            "FIELD": "PO050-CODE-SERVICE",
+            "TYPE": "N",
+            "SIZE": "3",
+            "OFFSET1": "429",
+            "OFFSET2": "431",
+            "VALUE": "CODE SERVICE"
+        },
+        {
+            "FIELD": "PO050-COD-FAB",
+            "TYPE": "AN",
+            "SIZE": "1",
+            "OFFSET1": "432",
+            "OFFSET2": "432",
+            "VALUE": "CODE FABRICATION OU CALCUL"
+        },
+        {
+            "FIELD": "PO050-RIB",
+            "TYPE": "AN",
+            "SIZE": "21",
+            "OFFSET1": "433",
+            "OFFSET2": "453",
+            "VALUE": "R.I.B"
+        },
+        {
+            "FIELD": "FILLER",
+            "TYPE": "AN",
+            "SIZE": "3",
+            "OFFSET1": "454",
+            "OFFSET2": "456",
+            "VALUE": "FILLER = VALUE SPACE"
+        },
+        {
+            "FIELD": "Numéro Token",
+            "TYPE": "AN",
+            "SIZE": "34",
+            "OFFSET1": "457",
+            "OFFSET2": "490",
+            "VALUE": "Token sur 19 positions, le reste étant des espaces"
+        },
+        {
+            "FIELD": "PO050-ISO3",
+            "TYPE": "AN",
+            "SIZE": "106",
+            "OFFSET1": "491",
+            "OFFSET2": "596",
+            "VALUE": "PISTE ISO 3"
+        },
+        {
+            "FIELD": "PO050-CVV",
+            "TYPE": "AN",
+            "SIZE": "3",
+            "OFFSET1": "597",
+            "OFFSET2": "599",
+            "VALUE": "CVV"
+        },
+        {
+            "FIELD": "PO050-CVC2",
+            "TYPE": "AN",
+            "SIZE": "3",
+            "OFFSET1": "600",
+            "OFFSET2": "602",
+            "VALUE": "CVC2"
+        },
+        {
+            "FIELD": "PO050-ENC-ISO1",
+            "TYPE": "AN",
+            "SIZE": "1",
+            "OFFSET1": "603",
+            "OFFSET2": "603",
+            "VALUE": "ENCODAGE OU NON DE LA PISTE 1"
+        },
+        {
+            "FIELD": "PO050-ENC-ISO2",
+            "TYPE": "AN",
+            "SIZE": "1",
+            "OFFSET1": "604",
+            "OFFSET2": "604",
+            "VALUE": "ENCODAGE OU NON DE LA PISTE 2"
+        },
+        {
+            "FIELD": "PO050-ENC-ISO3",
+            "TYPE": "AN",
+            "SIZE": "1",
+            "OFFSET1": "605",
+            "OFFSET2": "605",
+            "VALUE": "ENCODAGE OU NON DE LA PISTE 3"
+        },
+        {
+            "FIELD": "PO050-PRESENCE-CVV",
+            "TYPE": "AN",
+            "SIZE": "1",
+            "OFFSET1": "606",
+            "OFFSET2": "606",
+            "VALUE": "CODE PRESENCE DU CVV OU PAS"
+        },
+        {
+            "FIELD": "PO050-PRESENCE-PVV",
+            "TYPE": "AN",
+            "SIZE": "1",
+            "OFFSET1": "607",
+            "OFFSET2": "607",
+            "VALUE": "CODE PRESENCE DU PVV OU PAS"
+        },
+        {
+            "FIELD": "Origine demandeur",
+            "TYPE": "AN",
+            "SIZE": "2",
+            "OFFSET1": "608",
+            "OFFSET2": "609",
+            "VALUE": "Origine du demandeur de la carte"
+        },
+        {
+            "FIELD": "FILLER",
+            "TYPE": "AN",
+            "SIZE": "1",
+            "OFFSET1": "610",
+            "OFFSET2": "610",
+            "VALUE": "FILLER = VALUE SPACE"
+        },
+        {
+            "FIELD": "PO051-InitialCarte",
+            "TYPE": "AN",
+            "SIZE": "19",
+            "OFFSET1": "611",
+            "OFFSET2": "629",
+            "VALUE": "Numéro carte avant le premier"
+        },
+        {
+            "FIELD": "Code produit",
+            "TYPE": "N",
+            "SIZE": "4",
+            "OFFSET1": "630",
+            "OFFSET2": "633",
+            "VALUE": "Code produit MX"
+        },
+        {
+            "FIELD": "PAN sequence number",
+            "TYPE": "N",
+            "SIZE": "2",
+            "OFFSET1": "634",
+            "OFFSET2": "635",
+            "VALUE": "Tag : 5F34 (VSDC/MCHIP)"
+        },
+        {
+            "FIELD": "Lower Consecutive Offline Limit",
+            "TYPE": "N",
+            "SIZE": "2",
+            "OFFSET1": "636",
+            "OFFSET2": "637",
+            "VALUE": "Tag : 9F58 (VSDC) Tag : 9F14 (MCHIP)"
+        },
+        {
+            "FIELD": "Upper Consecutive Offline Limit",
+            "TYPE": "N",
+            "SIZE": "2",
+            "OFFSET1": "638",
+            "OFFSET2": "639",
+            "VALUE": "Tag : 9F59 (VSDC"
+        },
+        {
+            "FIELD": "Consecutive Offline Transaction",
+            "TYPE": "N",
+            "SIZE": "2",
+            "OFFSET1": "640",
+            "OFFSET2": "641",
+            "VALUE": "Tag : 9F72 (VSDC)"
+        },
+        {
+            "FIELD": "Consecutive Offline Transaction Limit (International -based on Currency)",
+            "TYPE": "N",
+            "SIZE": "2",
+            "OFFSET1": "642",
+            "OFFSET2": "643",
+            "VALUE": "Tag : 9F53 (VSDC)"
+        },
+        {
+            "FIELD": "Consecutive Transaction",
+            "TYPE": "N",
+            "SIZE": "2",
+            "OFFSET1": "644",
+            "OFFSET2": "645",
+            "VALUE": "Tag : 9F5E (VSDC)"
+        },
+        {
+            "FIELD": "Cumulative Offline Transaction",
+            "TYPE": "N",
+            "SIZE": "12",
+            "OFFSET1": "646",
+            "OFFSET2": "657",
+            "VALUE": "Tag : 9F54 (VSDC)"
+        },
+        {
+            "FIELD": "Cumulative Offline Transaction",
+            "TYPE": "N",
+            "SIZE": "12",
+            "OFFSET1": "658",
+            "OFFSET2": "669",
+            "VALUE": "Tag : 9F75 (VSDC)"
+        },
+        {
+            "FIELD": "Cumulative Offline Transaction Amount Upper Limit (Domestic and Dual Currency)",
+            "TYPE": "N",
+            "SIZE": "12",
+            "OFFSET1": "670",
+            "OFFSET2": "681",
+            "VALUE": "Tag : 9F5C (VSDC)"
+        },
+        {
+            "FIELD": "Lower cumulative domestic offline transaction amuont",
+            "TYPE": "N",
+            "SIZE": "12",
+            "OFFSET1": "682",
+            "OFFSET2": "693",
+            "VALUE": "Tag : CA (MCHIP)"
+        },
+        {
+            "FIELD": "Upper cumulative domestic offline transaction amuont",
+            "TYPE": "N",
+            "SIZE": "12",
+            "OFFSET1": "694",
+            "OFFSET2": "705",
+            "VALUE": "Tag : CB (MCHIP)"
+        },
+        {
+            "FIELD": "Maximum domestic offline transaction amount",
+            "TYPE": "N",
+            "SIZE": "12",
+            "OFFSET1": "706",
+            "OFFSET2": "717",
+            "VALUE": "Tag : C2 (MCHIP)"
+        },
+        {
+            "FIELD": "Currency conversion factor",
+            "TYPE": "N",
+            "SIZE": "8",
+            "OFFSET1": "718",
+            "OFFSET2": "725",
+            "VALUE": "Tag : 9F73 (VSDC)"
+        },
+        {
+            "FIELD": "Secondary application currency code",
+            "TYPE": "N",
+            "SIZE": "3",
+            "OFFSET1": "726",
+            "OFFSET2": "728",
+            "VALUE": "Tag : 9F76 (VSDC)"
+        },
+        {
+            "FIELD": "Transaction currency conversion table",
+            "TYPE": "AN",
+            "SIZE": "52",
+            "OFFSET1": "729",
+            "OFFSET2": "780",
+            "VALUE": "Tag : D1 (MCHIP)"
+        },
+        {
+            "FIELD": "Application Currency Code – velocity checking",
+            "TYPE": "N",
+            "SIZE": "3",
+            "OFFSET1": "781",
+            "OFFSET2": "783",
+            "VALUE": "Tag : 9F51 (VSDC)"
+        },
+        {
+            "FIELD": "CRM Currency Code",
+            "TYPE": "N",
+            "SIZE": "3",
+            "OFFSET1": "784",
+            "OFFSET2": "786",
+            "VALUE": "Tag : C9 (MCHIP)"
+        },
+        {
+            "FIELD": "PIN BLOC",
+            "TYPE": "AN",
+            "SIZE": "16",
+            "OFFSET1": "787",
+            "OFFSET2": "802",
+            "VALUE": "PINBLOCK cryptée sous la clé partagée avec la perso"
+        },
+        {
+            "FIELD": "ICVV",
+            "TYPE": "N",
+            "SIZE": "3",
+            "OFFSET1": "803",
+            "OFFSET2": "805",
+            "VALUE": "Donnée ICVV"
+        },
+        {
+            "FIELD": "PVV",
+            "TYPE": "N",
+            "SIZE": "4",
+            "OFFSET1": "806",
+            "OFFSET2": "809",
+            "VALUE": "Donnée PVV"
+        },
+        {
+            "FIELD": "FILLER",
+            "TYPE": "AN",
+            "SIZE": "3",
+            "OFFSET1": "810",
+            "OFFSET2": "812",
+            "VALUE": "INUTILISE = VALUE SPACE"
+        }
+    ]
+}

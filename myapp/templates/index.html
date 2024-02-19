@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Data tree</h1>
+    {% for key1, final_result in data.items %}
+    <ul>
+        <li>
+            {{ key1 }}
+            <ul>
+                {% for key2, value2 in final_result.items %}
+
+            <li>{{key2}} : {{ value2}}</li>
+
+            {% endfor %}
+            </ul>     
+        </li>
+    </ul>
+    {% endfor %}               
+  </body>
+</html>
